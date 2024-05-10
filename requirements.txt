@@ -1,0 +1,5 @@
+fastapi==0.111.0
+pycryptodome==3.20.0
+pydantic==2.7.1
+pydantic_settings==2.2.1
+requests==2.31.0
