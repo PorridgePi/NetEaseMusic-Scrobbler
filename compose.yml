@@ -14,7 +14,7 @@ services:
       - public
     labels:
       - "traefik.enable=true"
-      - "traefik.http.routers.neteasemusic-scrobbler.rule=Host(`${MALOJA_DOMAIN}`)"
+      - "traefik.http.routers.neteasemusic-scrobbler.rule=Host(`${SCROBBLER_DOMAIN}`)"
       - "traefik.http.routers.neteasemusic-scrobbler.service=neteasemusic-scrobbler-service"
       - "traefik.http.services.neteasemusic-scrobbler-service.loadbalancer.server.port=80"
       - "traefik.http.routers.neteasemusic-scrobbler.tls=true"
