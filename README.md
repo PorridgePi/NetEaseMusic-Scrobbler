@@ -45,15 +45,19 @@ git clone https://github.com/PorridgePi/NetEaseMusic-Scrobbler
 ```sh
 python -m venv venv
 ```
-4. Install dependencies
+4. Activate virtual environment
+```sh
+source venv/bin/activate
+```
+5. Install dependencies
 ```sh
 pip install -r requirements.txt
 ```
-5. Run the server
+6. Run the server
 ```sh
 fastapi run app/main.py --port 8888
 ```
-6. API up at `http://localhost:8888`
+7. API up at `http://localhost:8888`
 
 ## API Endpoints
 A general overview of the endpoints is available below.
